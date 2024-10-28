@@ -1,0 +1,94 @@
+/* Estilos gerais */
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Arial', sans-serif;
+    background-color: #f7f7f7;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Estilo do cabeçalho */
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    font-size: 36px;
+    color: #4CAF50; /* Verde */
+}
+
+header p {
+    font-size: 18px;
+    color: #555; /* Cinza escuro */
+}
+
+/* Estilo do grid */
+#grid {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-gap: 5px;
+    margin-bottom: 20px;
+}
+
+/* Estilo das células */
+.cell {
+    width: 100px;
+    height: 100px;
+    background-color: #fff;
+    border: 2px solid #4CAF50; /* Verde */
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 48px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.cell:hover {
+    background-color: #f0f0f0; /* Cor ao passar o mouse */
+    transform: scale(1.05);
+}
+
+/* Estilo da mensagem */
+#message {
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+
+/* Estilo do botão de reiniciar */
+button {
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #4CAF50; /* Verde */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #45a049; /* Verde mais escuro */
+}
+
+/* Estilo da pontuação */
+#score {
+    margin-top: 20px;
+    font-size: 18px;
+    text-align: center;
+}
+
+/* Estilo do rodapé */
+footer {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #777; /* Cinza claro */
+}
